@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+         body{
+            background-image: linear-gradient(red,orange,yellow,lime,blue,purple);
+         }
+        </style>
+    </head>
+
+    <body>
+        <h1>Cars</h1>
+        <p>Today we are going to see some cars</p>
+        <p id="nissan"></p>
+        <br>
+        <p id="honda"></p>
+        <br>
+        <p id="tesla"></p>
+        <br>
+        <p id="holden"></p>
+
+        <script>
+            var car=['Nissan', 'Honda', 'Holden', 'Tesla', 'Ford', 'Subaru'];
+            
+
+            document.getElementById("nissan").innerHTML= car[3];
+
+        car.push("Lambo")
+        document.getElementById("honda").innerHTML = car;    
+
+        car.pop()
+        document.getElementById("tesla").innerHTML = car;
+
+        document.getElementById("holden").innerHTML =car.join(" 🤩 ");
+        </script>
+    </body>
+</html>
