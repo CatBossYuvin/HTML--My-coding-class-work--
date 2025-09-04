@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Breif on javascript 2</title>
+    </head>
+<body>
+    <p id="student1">
+    <p id="student2">
+<script>
+    class student{
+        constructor(name,Year){
+            this.name;
+            this.Year;
+        }
+    age(){
+        let date = new Date();
+        return date.getFullYear()- this,year
+    }
+  }
+
+  student1= new student=("Riya",2014);
+document.getElementById("student1").innerHTML=
+"My name is"+student1.name+ ".I Was Born In"+student1.Year+"My age is" +student1.age();
+
+    student2= new student("Riya", 2014);
+    document.getElementById("student1").innerHTML =
+        "My name is " + student2.name+ ". I born in " + student2.year+ ". And my age is " + student1.age();
+    </script>
+</body>
+</html>
