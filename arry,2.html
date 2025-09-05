@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>javascript arry sorting</h2>
+        <p>on click the button to sort the arry i asendinjg oder</p>
+        <button on click="ascending()">ascending</button>
+        <button on click="descending()">descending</button>
+        <p id="results"></p>
+        <script>
+            var points = [40,100,1,5,25,10];
+            document.getElementById("result").innerHTML=points;
+
+            function ascending(){
+                points.sort(function(a,b)(return a-b));
+                document.getElementById("result").innerHTML = points; 
+            }
+
+        function descending() {
+     points.sort(function (a, b)(return b - a));
+      document.getElementById("result").innerHTML = points;
+     }
+        </script>
+    </body>
+</html>
