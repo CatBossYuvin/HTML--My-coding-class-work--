@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+             body{
+            background-image: linear-gradient(red,orange,yellow,lime,blue,purple);
+         }
+        </style>
+    </head>
+    <body>
+    <h2>Convert a javascript object into a JSON string, and send it to the server.</h2>
+    <p id="result"></p>
+<br>
+
+   <h2>Callback function</h2>
+   <p>Do a calculation and then display the result.</p>
+   <p id ="cat"></p>
+
+    <script>
+    var myObj = { name: "Yuvin", age: 9, grade: 5 }
+    var myJSON = JSON.stringify(myObj);
+    var newObj = JSON.parse(myJSON);
+    document.getElementById("result").innerHTML = newObj.name;
+  
+    function myDisplayer(value) {
+  document.getElementById("cat").innerHTML = value;
+    }
+
+    function myCalculator(num1, num2, myCallback) {
+        let sum = num1+num2;
+        myCallback(sum);
+    }
+myCalculator(5, 5, myDisplayer);
+    </script>
+    </body>
+</html>
