@@ -1,0 +1,93 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Georgia, serif;
+        background-color: white;
+    }
+
+    header {
+        background-color: #001f4d;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 60px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: #d4af37;
+    }
+
+    .book-btn {
+        background-color: #d4af37;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .hero {
+        background: url('your-image.jpg') no-repeat center center/cover;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        position: relative;
+    }
+
+    .hero::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .hero-content p {
+        font-size: 24px;
+    }
