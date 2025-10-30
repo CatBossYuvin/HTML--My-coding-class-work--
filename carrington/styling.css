@@ -91,3 +91,151 @@
     .hero-content p {
         font-size: 24px;
     }
+
+    footer{
+     padding: 40px 20px;
+     text-align: center;
+     background-color: #001f4d;
+     color:white;
+    }
+
+    .footer-top{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .info{
+        max-width: 250px;
+    }
+
+    .info img{
+        width: 150px;
+    }
+
+    .info p{
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+    .social a{
+        color:white;
+        margin: 1 10px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+iframe {
+
+    width: 250px;
+
+    height: 150px;
+
+    border: none;
+
+    border-radius: 5px;
+
+}
+
+.links {
+
+    text-align: left;
+
+}
+
+.links a {
+
+    display: block;
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 5px 0;
+
+    font-size: 14px;
+
+}
+
+.links a:hover {
+
+    color: #d4af37;
+
+}
+
+/* Newsletter */
+
+.newsletter {
+
+    background: #e0e5ea;
+
+    color: #001f4d;
+
+    padding: 30px;
+
+    max-width: 800px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 4px;
+
+}
+
+.newsletter h3 {
+
+    margin-top: 0;
+
+}
+
+.newsletter input[type="email"] {
+
+    width: 80%;
+
+    padding: 10px;
+
+    margin: 10px 0;
+
+    border: none;
+
+    border-radius: 3px;
+
+}
+
+.newsletter button {
+
+    background: #d4af37;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.copy {
+
+    font-size: 13px;
+
+    color: #ccc;
+
+    margin-top: 20px;
+
+}
+
+.copy a {
+
+    color: #d4af37;
+
+    text-decoration: none;
+
+}
